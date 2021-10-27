@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>3D Halloween Maze</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <!-- The video -->
+<video autoplay muted loop id="myVideo">
+  <source src="maze.mp4" type="video/mp4">
+</video>
+
+
+<div id="khi">
+<form>
+
+ 
+  <section class="game-menu-frame">
+    <header class="game-header">
+      <br><br><h1 class="game-title"> 
+        <div class="line-1">3D MAZE</div>
+        <div class="line-2">Halloween</div>
+        <div class="line-3">Find the EXIT or DIE!</div>
+      </h1>
+    </header>
+    <nav class="game-nav">
+      <h2 class="game-nav-title"  >Main Menu</h2>
+      <ul class="game-nav-list">
+        <li class="game-nav-item"> 
+          <label class="game-nav-button" for="toggleGame" onclick="window.location.href='game.html'">Play</label>
+        </li>
+        <li class="game-nav-item"> 
+          <label class="game-nav-button" for="HowToPlayPopup" >How to Play</label>
+        </li>
+        <li class="game-nav-item"> 
+          <label class="game-nav-button" for="GraphicsLevel"  id="GraphicsLevelButton">Raycasting Algorithm</label>
+        </li>
+        <li class="game-nav-item"> 
+          <label class="game-nav-button" for="whoAmIPopup" tabindex="0">Who Am I</label>
+        </li>
+        <li class="game-nav-item"> <a class="game-nav-button" href="https://github.com/PicoRadia">Quit</a></li>
+      </ul>
+      <p class="note">A project for 3Dtech module</p>
+      <br><br> <h5 class="note"> Author : Radia EL HAMDOUNI  </h5> 
+       <h5 class="note"> Supervising teachers : Wannous HAZEM &  Benjamin ALLAERT </h5> 
+       <br><br><br><h5 class="note"> You can View the source code on  <a href="https://github.com/PicoRadia/ALPR">  GitHub.</a>  </h5> 
+
+    </nav>
+
+
+<!-- fin menu-->
+  
+  
+</form>
+<!-- partial -->
+  <script  src="./script.js"></script>
+</div>
+</body>
+</html>
